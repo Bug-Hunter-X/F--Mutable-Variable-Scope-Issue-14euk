@@ -1,0 +1,1 @@
+This example demonstrates a common issue in F# when working with mutable variables within functions.  The `swap` function attempts to swap the values of `x` and `y`, but the changes are not reflected outside the function's scope because F#'s mutability is lexically scoped.  The solution shows how to use a tuple to return the swapped values and update the external variables.
